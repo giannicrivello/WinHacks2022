@@ -1,0 +1,22 @@
+#registerUser() ->
+#curl -X POST "https://us-central1-gaminig-machines.cloudfunctions.net/test" -H "Content-Type:application/json" --data '{"action": "signup", "username":"csdfsdf", "password": "sdjkfl"}'
+
+#login() -> 
+
+
+#postJournal() ->
+curl -X POST "https://us-central1-gaminig-machines.cloudfunctions.net/test" -H "Content-Type:application/json" --data '{"action": "postJournal", "username": "csdfsdf", "title": "This is a post", "content":"some content yay"}'
+# {
+#     "action":"postJournal",
+#     "username": "Kedsfs",
+#     "title": "this is a pos",
+#     "content": "this is content"
+# }
+
+#postComments() ->
+
+#postMentalState() ->
+
+#getComments() ->
+
+#getGraph() -> 
